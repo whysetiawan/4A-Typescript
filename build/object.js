@@ -9,6 +9,17 @@ let mobil2 = {
     alamat: "Jl. Raya Bandung",
     telepon: "0812-3456-7890",
 };
+class Mobil {
+    constructor(merk, tipe, tahun, power, nama, alamat, telepon) {
+        this.merk = merk;
+        this.tipe = tipe;
+        this.tahun = tahun;
+        this.power = power;
+        this.nama = nama;
+        this.alamat = alamat;
+        this.telepon = telepon;
+    }
+}
 function printHargaMobil(harga) {
     console.log(harga);
 }
